@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper_widget.cpp">
+      <Filter>Source Files\Mapper Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="mandelbrot_viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\Mapper Widget\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper_enterprise.cpp">
+      <Filter>Source Files\Mapper Widget\Enterprise with workers</Filter>
+    </ClCompile>
+    <ClCompile Include="mandelbrot_settings_dialog.cpp">
+      <Filter>Source Files\Settings Dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="mapper_widget.h">
+      <Filter>Source Files\Mapper Widget</Filter>
+    </QtMoc>
+    <QtMoc Include="mandelbrot_viewer.h">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mapper_enterprise.h">
+      <Filter>Source Files\Mapper Widget\Enterprise with workers</Filter>
+    </QtMoc>
+    <QtMoc Include="mandelbrot_settings_dialog.h">
+      <Filter>Source Files\Settings Dialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="mandelbrot_viewer.ui" />
+    <QtUic Include="mapper_widget.ui">
+      <Filter>Source Files\Mapper Widget</Filter>
+    </QtUic>
+    <QtUic Include="mandelbrot_settings_dialog.ui">
+      <Filter>Source Files\Settings Dialog</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files\Mapper Widget">
+      <UniqueIdentifier>{fde573c5-e0f1-416d-8fe6-c0c8f7ea81a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mapper Widget\Utils">
+      <UniqueIdentifier>{588ccca9-b34b-441a-a265-060cf955fd03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files\Mapper Widget\Enterprise with workers">
+      <UniqueIdentifier>{59bec927-ab90-48ff-b7d6-16ddbcc8cd65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Settings Dialog">
+      <UniqueIdentifier>{c966a036-dd11-4fe0-b4ad-0b86868afe90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="intrusive_list.h">
+      <Filter>Source Files\Mapper Widget\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="superpixel.h">
+      <Filter>Source Files\Mapper Widget\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="task_queue.h">
+      <Filter>Source Files\Mapper Widget\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Source Files\Mapper Widget\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="mandelbrot_viewer.qrc" />
+  </ItemGroup>
+</Project>

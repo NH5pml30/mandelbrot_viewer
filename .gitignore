@@ -1,0 +1,15 @@
+# Cmake
+CMakeCache.txt
+CMakeFiles/
+cmake-build*
+build/
+cmake_install.cmake
+Makefile
+
+# Myplog
+myplog.txt
+
+# Visual Studio garbage .vs
+.vs
+
+[Oo]ut/

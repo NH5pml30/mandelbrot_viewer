@@ -1,0 +1,4 @@
+<RCC>
+    <qresource prefix="mandelbrot_viewer">
+    </qresource>
+</RCC>

@@ -1,0 +1,27 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug (default)",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "QT_DIR",
+          "value": "C:/Qt/5.15.2/msvc2019_64",
+          "type": "PATH"
+        },
+        {
+          "name": "Qt5_DIR",
+          "value": "C:/Qt/5.15.2/msvc2019_64",
+          "type": "PATH"
+        }
+      ]
+    }
+  ]
+}
